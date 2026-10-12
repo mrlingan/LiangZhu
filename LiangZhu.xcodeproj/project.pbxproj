@@ -1,0 +1,57 @@
+// !$*UTF8*$!
+{
+ archiveVersion = 1; classes = {}; objectVersion = 56;
+ objects = {
+  1050BDBCF7C28B667A4C4764 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LiangZhu/LiangZhuApp.swift"; sourceTree = "<group>"; };
+  E1F5C6ECFD31825DDBA80D33 = { isa = PBXBuildFile; fileRef = 1050BDBCF7C28B667A4C4764; };
+  C22BB4F3D6AC41002319F61E = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LiangZhu/Models/SurveyModels.swift"; sourceTree = "<group>"; };
+  1EA7AE3E82E5FE8E70F3CE99 = { isa = PBXBuildFile; fileRef = C22BB4F3D6AC41002319F61E; };
+  5ABF10DA3FC3645BCB05D7AE = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LiangZhu/Services/ProjectStore.swift"; sourceTree = "<group>"; };
+  496909E4479F5DF95076A877 = { isa = PBXBuildFile; fileRef = 5ABF10DA3FC3645BCB05D7AE; };
+  26CE9186F36F3E23D3DB6059 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LiangZhu/Services/RoomScan.swift"; sourceTree = "<group>"; };
+  B920B4A4187EBC8D22E29587 = { isa = PBXBuildFile; fileRef = 26CE9186F36F3E23D3DB6059; };
+  D7FE0B70BC072EF99EAD19C6 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LiangZhu/Services/SurveyExporter.swift"; sourceTree = "<group>"; };
+  33761E35FF717FD0A64E9451 = { isa = PBXBuildFile; fileRef = D7FE0B70BC072EF99EAD19C6; };
+  413D89C2F63422544AF8459D = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LiangZhu/Views/DashboardView.swift"; sourceTree = "<group>"; };
+  D2D85E6D6915888CDBAA777C = { isa = PBXBuildFile; fileRef = 413D89C2F63422544AF8459D; };
+  B9334987C566DF270E022B4F = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LiangZhu/Views/FloorPlanView.swift"; sourceTree = "<group>"; };
+  04A0B29B8A9E23575FB582D1 = { isa = PBXBuildFile; fileRef = B9334987C566DF270E022B4F; };
+  1DED286AC9D6486CC9D5218F = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LiangZhu/Views/ProjectDetailView.swift"; sourceTree = "<group>"; };
+  C033D0D29818E34C741062EC = { isa = PBXBuildFile; fileRef = 1DED286AC9D6486CC9D5218F; };
+  46364B5158768C7E5A0CBD62 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LiangZhu/Views/RoomEditor.swift"; sourceTree = "<group>"; };
+  6E3D11D44949E7234DF3E6EF = { isa = PBXBuildFile; fileRef = 46364B5158768C7E5A0CBD62; };
+  3BAEE91CF0379FC9470AC7E5 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LiangZhu/Views/Theme.swift"; sourceTree = "<group>"; };
+  794084E06DD8EEF680301641 = { isa = PBXBuildFile; fileRef = 3BAEE91CF0379FC9470AC7E5; };
+  087BE1520FDD34DA206F9B2F = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LiangZhuTests/SurveyTests.swift"; sourceTree = "<group>"; };
+  E205253118FAE3EE75B209FA = { isa = PBXBuildFile; fileRef = 087BE1520FDD34DA206F9B2F; };
+  674F77CB5488FADD0F579505 = { isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "LiangZhu/Assets.xcassets"; sourceTree = "<group>"; };
+  8D4EB69EC7E13710E4EB2A83 = { isa = PBXBuildFile; fileRef = 674F77CB5488FADD0F579505; };
+  CCB9E8A0B221C46A8331D35B = { isa = PBXFileReference; lastKnownFileType = text.xml; path = "LiangZhu/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
+  ED2A374CFE73B8313078E012 = { isa = PBXBuildFile; fileRef = CCB9E8A0B221C46A8331D35B; };
+  0112DAE3F84CB4DF5179BE01 = { isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = LiangZhu/Info.plist; sourceTree = "<group>"; };
+  8BCD5BC4CDFDF0918087C782 = { isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiangZhu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+  F219C0274590DA45E4BEF1EA = { isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiangZhuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+  FBDC4F23F93125BBEEAE800C = { isa = PBXGroup; name = Products; children = (8BCD5BC4CDFDF0918087C782, F219C0274590DA45E4BEF1EA,); sourceTree = "<group>"; };
+  E50290A24C49A459B43487C5 = { isa = PBXGroup; children = (1050BDBCF7C28B667A4C4764, C22BB4F3D6AC41002319F61E, 5ABF10DA3FC3645BCB05D7AE, 26CE9186F36F3E23D3DB6059, D7FE0B70BC072EF99EAD19C6, 413D89C2F63422544AF8459D, B9334987C566DF270E022B4F, 1DED286AC9D6486CC9D5218F, 46364B5158768C7E5A0CBD62, 3BAEE91CF0379FC9470AC7E5, 087BE1520FDD34DA206F9B2F, 674F77CB5488FADD0F579505, CCB9E8A0B221C46A8331D35B, 0112DAE3F84CB4DF5179BE01, FBDC4F23F93125BBEEAE800C,); sourceTree = "<group>"; };
+  AB52CB08E0FDF02BF6C67C33 = { isa = XCBuildConfiguration; buildSettings = { IPHONEOS_DEPLOYMENT_TARGET = "17.0"; SDKROOT = "iphoneos"; SWIFT_VERSION = "5.0"; CLANG_ENABLE_MODULES = "YES"; CLANG_ENABLE_OBJC_ARC = "YES"; ENABLE_USER_SCRIPT_SANDBOXING = "YES"; GCC_C_LANGUAGE_STANDARD = "gnu17"; CLANG_WARN_DOCUMENTATION_COMMENTS = "YES"; TARGETED_DEVICE_FAMILY = "1,2"; CODE_SIGN_STYLE = "Automatic"; SWIFT_EMIT_LOC_STRINGS = "YES"; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; DEBUG_INFORMATION_FORMAT = "dwarf"; ENABLE_TESTABILITY = "YES"; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)"; }; name = Debug; };
+  5283471FF90C511CFE244FFF = { isa = XCBuildConfiguration; buildSettings = { IPHONEOS_DEPLOYMENT_TARGET = "17.0"; SDKROOT = "iphoneos"; SWIFT_VERSION = "5.0"; CLANG_ENABLE_MODULES = "YES"; CLANG_ENABLE_OBJC_ARC = "YES"; ENABLE_USER_SCRIPT_SANDBOXING = "YES"; GCC_C_LANGUAGE_STANDARD = "gnu17"; CLANG_WARN_DOCUMENTATION_COMMENTS = "YES"; TARGETED_DEVICE_FAMILY = "1,2"; CODE_SIGN_STYLE = "Automatic"; SWIFT_EMIT_LOC_STRINGS = "YES"; SWIFT_OPTIMIZATION_LEVEL = "-O"; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; ENABLE_TESTABILITY = "NO"; }; name = Release; };
+  4BA304E783CFBB9FA6E56552 = { isa = XCConfigurationList; buildConfigurations = (AB52CB08E0FDF02BF6C67C33, 5283471FF90C511CFE244FFF,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+  EF00B4C26D3BA245CBAB3F00 = { isa = XCBuildConfiguration; buildSettings = { PRODUCT_BUNDLE_IDENTIFIER = "com.liangzhu.survey"; PRODUCT_NAME = "$(TARGET_NAME)"; INFOPLIST_FILE = "LiangZhu/Info.plist"; ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon"; ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "AccentColor"; ENABLE_PREVIEWS = "YES"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; }; name = Debug; };
+  49B4940C5F901788C278DD41 = { isa = XCBuildConfiguration; buildSettings = { PRODUCT_BUNDLE_IDENTIFIER = "com.liangzhu.survey"; PRODUCT_NAME = "$(TARGET_NAME)"; INFOPLIST_FILE = "LiangZhu/Info.plist"; ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon"; ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "AccentColor"; ENABLE_PREVIEWS = "YES"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; }; name = Release; };
+  BF6B243F84FA915024E66DCC = { isa = XCConfigurationList; buildConfigurations = (EF00B4C26D3BA245CBAB3F00, 49B4940C5F901788C278DD41,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+  532167A2F4DF305CC7A47840 = { isa = XCBuildConfiguration; buildSettings = { PRODUCT_BUNDLE_IDENTIFIER = "com.liangzhu.survey.tests"; PRODUCT_NAME = "$(TARGET_NAME)"; GENERATE_INFOPLIST_FILE = "YES"; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiangZhu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LiangZhu"; BUNDLE_LOADER = "$(TEST_HOST)"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"; }; name = Debug; };
+  613A5B8C1DD03DF932B456E4 = { isa = XCBuildConfiguration; buildSettings = { PRODUCT_BUNDLE_IDENTIFIER = "com.liangzhu.survey.tests"; PRODUCT_NAME = "$(TARGET_NAME)"; GENERATE_INFOPLIST_FILE = "YES"; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiangZhu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LiangZhu"; BUNDLE_LOADER = "$(TEST_HOST)"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"; }; name = Release; };
+  5108F0FAAC041B35012A8D2F = { isa = XCConfigurationList; buildConfigurations = (532167A2F4DF305CC7A47840, 613A5B8C1DD03DF932B456E4,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+  FDBEB636160CC4A63F780304 = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (E1F5C6ECFD31825DDBA80D33, 1EA7AE3E82E5FE8E70F3CE99, 496909E4479F5DF95076A877, B920B4A4187EBC8D22E29587, 33761E35FF717FD0A64E9451, D2D85E6D6915888CDBAA777C, 04A0B29B8A9E23575FB582D1, C033D0D29818E34C741062EC, 6E3D11D44949E7234DF3E6EF, 794084E06DD8EEF680301641,); runOnlyForDeploymentPostprocessing = 0; };
+  FA3C5073B463D1BB4154A72F = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+  2BF5DE592226D457D3BCDAC0 = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (8D4EB69EC7E13710E4EB2A83, ED2A374CFE73B8313078E012,); runOnlyForDeploymentPostprocessing = 0; };
+  BBF27171F2E9EBCCAFD3E545 = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (E205253118FAE3EE75B209FA,); runOnlyForDeploymentPostprocessing = 0; };
+  CD5BADB5A91D597E76F60CF4 = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+  D7DA8668DC68561CF3B5D465 = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+  D799BAE6088A90139B415FCC = { isa = PBXContainerItemProxy; containerPortal = E5300ACC1EACA7602AC342D7; proxyType = 1; remoteGlobalIDString = C13732C8E715C9BEE4FA51C9; remoteInfo = LiangZhu; };
+  DE58E2B17C19600779694943 = { isa = PBXTargetDependency; target = C13732C8E715C9BEE4FA51C9; targetProxy = D799BAE6088A90139B415FCC; };
+  C13732C8E715C9BEE4FA51C9 = { isa = PBXNativeTarget; buildConfigurationList = BF6B243F84FA915024E66DCC; buildPhases = (FDBEB636160CC4A63F780304, FA3C5073B463D1BB4154A72F, 2BF5DE592226D457D3BCDAC0,); buildRules = (); dependencies = (); name = LiangZhu; productName = LiangZhu; productReference = 8BCD5BC4CDFDF0918087C782; productType = "com.apple.product-type.application"; };
+  64BCB755386F844C96A2A5B0 = { isa = PBXNativeTarget; buildConfigurationList = 5108F0FAAC041B35012A8D2F; buildPhases = (BBF27171F2E9EBCCAFD3E545, CD5BADB5A91D597E76F60CF4, D7DA8668DC68561CF3B5D465,); buildRules = (); dependencies = (DE58E2B17C19600779694943,); name = LiangZhuTests; productName = LiangZhuTests; productReference = F219C0274590DA45E4BEF1EA; productType = "com.apple.product-type.bundle.unit-test"; };
+  E5300ACC1EACA7602AC342D7 = { isa = PBXProject; attributes = { BuildIndependentTargetsInParallel = YES; LastUpgradeCheck = 2700; TargetAttributes = { C13732C8E715C9BEE4FA51C9 = { CreatedOnToolsVersion = 27.0; }; 64BCB755386F844C96A2A5B0 = { CreatedOnToolsVersion = 27.0; TestTargetID = C13732C8E715C9BEE4FA51C9; }; }; }; buildConfigurationList = 4BA304E783CFBB9FA6E56552; compatibilityVersion = "Xcode 14.0"; developmentRegion = zh-Hans; hasScannedForEncodings = 0; knownRegions = ("zh-Hans", en, Base,); mainGroup = E50290A24C49A459B43487C5; productRefGroup = FBDC4F23F93125BBEEAE800C; projectDirPath = ""; projectRoot = ""; targets = (C13732C8E715C9BEE4FA51C9, 64BCB755386F844C96A2A5B0,); };
+ }; rootObject = E5300ACC1EACA7602AC342D7;
+}
